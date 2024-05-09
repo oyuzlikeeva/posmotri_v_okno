@@ -90,8 +90,8 @@ a {
 .search-form__submit-button:focus-visible,
 .search-form__textfield:focus-visible,
 .search-form__textfield:focus,
-.search-form__label:has(> .search-form__checkbox):focus-visible,
-.search-form__label:has(> .search-form__checkbox):focus {
+.search-form__label:has(> .search-form__checkbox:focus-visible),
+.search-form__label:has(> .search-form__checkbox:focus) {
   outline: 1px solid #fff;
 }
 
